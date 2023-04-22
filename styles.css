@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/* navbar */
 .navbar {
   display: flex;
   background-color: rgb(136, 133, 133);
@@ -36,21 +36,50 @@ a {
   color: white;
 }
 
+/* invitacion */
 .img-hawaii {
   width: 100%;
+  filter: brightness(60%);
 }
-
-.divImg {
-  
+.invitacion {
+  position: relative;
+  display: inline-block;
 }
 
 .invitacion-text {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  color: white;
   text-align: end;
-  padding-top: 10px;
-  padding-right: 50px;
 }
 
 .invitacion-text button {
-  width: 120px;
+  width: 150px;
   height: 30px;
+  background: none;
+}
+
+.invitacion-text #green {
+  background-color: green;
+}
+
+/* card */
+.cardContain {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+#oradoresT {
+  text-align: center;
+}
+
+.carouselContain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carouselT{
+  background-color: rgb(63, 62, 62);
 }
