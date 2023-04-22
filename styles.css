@@ -70,7 +70,7 @@ a {
   justify-content: space-between;
   margin: 50px;
 }
-
+/* carousel */
 #oradoresT {
   text-align: center;
 }
@@ -78,8 +78,24 @@ a {
 .carouselContain {
   display: flex;
   justify-content: space-between;
+  /* width: 100%; */
 }
-
-.carouselT{
+.imgC {
+  width: 50%
+}
+.carouselT {
+  font-size: 12px;
+  color: white;
   background-color: rgb(63, 62, 62);
+  width: 50%;
+}
+.carouselContain button {
+  color: white;
+  background: none;
+  border: solid white 1px;
+}
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
 }
